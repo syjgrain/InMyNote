@@ -41,7 +41,7 @@ class App{
         this.page.addChild(new ImageComponent('Image Title', 'https://picsum.photos/800/400'));
         this.page.addChild(new NoteComponent('Note Title', 'study hard for myself'));
         this.page.addChild(new VideoComponent('Video Title', 'https://www.youtube.com/embed/8672M5Cjn3Q'));
-        this.page.addChild(new TodoComponent('Image Title', 'plan for today'));
+        this.page.addChild(new TodoComponent('Todo Title', 'plan for today'));
     }
     private bindElementToDialog<T extends (MediaData | TextData) & Component>(
         selector:string, 
