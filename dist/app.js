@@ -16,7 +16,7 @@ class App {
         this.bindElementToDialog('#new-note', TextSectionInput, (input) => new NoteComponent(input.title, input.body));
         this.bindElementToDialog('#new-todo', TextSectionInput, (input) => new TodoComponent(input.title, input.body));
         this.page.addChild(new ImageComponent('Image Title', 'https://picsum.photos/800/400'));
-        this.page.addChild(new NoteComponent('Note Title', 'Dont forget to code your dream'));
+        this.page.addChild(new NoteComponent('Note Title', 'study hard for myself'));
         this.page.addChild(new VideoComponent('Video Title', 'https://www.youtube.com/embed/8672M5Cjn3Q'));
         this.page.addChild(new TodoComponent('Image Title', 'plan for today'));
     }
